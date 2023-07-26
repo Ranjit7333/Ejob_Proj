@@ -1,0 +1,10 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(assets/img/aba.jpg);
+    background-position:center;
+    background-size: 100%;
+    height:auto;
+    color:white;
+}

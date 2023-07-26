@@ -1,0 +1,18 @@
+
+<div class="container">
+    <section class="float-right">
+        <strong><b>Wellcome</b>  &nbsp;{{loggedUser}}</strong>&nbsp;&nbsp;
+        <a href="" (click)="onLogout()">LogOut</a>
+    </section>
+    <div class="row">
+        <div *ngFor="let f of foodList" class="card col-lg-3 p-2 m-2">
+            <header class="modal-header bg-dark text-white"><h1>{{f.food_name}}</h1></header>
+            <article style ="text-align: justify,">{{f.desc}}</article>
+            <div>
+                <img [src]="f.food_image" style="width: 100%; height: 220px;"/>
+            </div>
+            <small class="badge badge-pills badge-danger">&#8377; {{f.price}}</small>
+            <button class="btn btn-info btn-sm">Place Order</button>
+        </div>
+    </div>
+</div>
