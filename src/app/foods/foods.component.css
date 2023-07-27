@@ -1,15 +1,21 @@
-.container{
-    height: auto;
-}
-article{
-    color: black;
-}
-.float-right{
-    margin-top: -140px;
-    margin-right:-150px;
-    color: orange;
-    
-}
-.float-right a{
-    color: aqua;
+
+@media only screen and (max-width: 1600px) {
+.container {
+        height: auto;
+    }
+
+    article {
+        color: black;
+    }
+
+    .float-right {
+        margin-top: -140px;
+        margin-right: -150px;
+        color: orange;
+
+    }
+
+    .float-right a {
+        color: aqua;
+    }
 }

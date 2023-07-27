@@ -34,5 +34,5 @@ body {
       CUSTOM UTILS CLASSES
     ========================================== */
     body, html {
-      height: 100%;
+      height: auto;
     }

@@ -1,87 +1,540 @@
+@media only screen and (max-width: 1600px) {
+        .container{
+            height: 70vh;
+            width: 100%;
+            margin-top: -80px;
+        }
+        .form{
+            width: 420px;
+            height: auto;
+            background-image: linear-gradient(to right, #f1b1b1 , #82e6e8);
+            
+            position: absolute;
+            border-radius: 10px;
+            padding: 25px;
+            left: 480px;
+            
+        }
+        .form h2{
+            width: 360px;
+            font-family: sans-serif;
+            font-size: 38px;
+            font-weight: bold;
+            text-align: center;
+            background-color:#f1b1b1 , #82e6e8;
+            color: black;
+            margin: 3px;
+            padding: 8px;
+        }
+        .a1{
+            width: 360px;
+            height: 40px;
+            background: transparent;
+            border-bottom:black  2px solid;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            color: black;
+            font-size: 18px;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            padding-left: 10px;
+        }
+        .form input{
+            background: transparent;
+            margin-top: 20px;
+            padding-left: 10px; 
+        }
+        .btnn{
+            width: 300px;
+            height: 40px;
+            margin-left: 35px;
+            border-radius: 10px;
+            background:gold;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: 0.4s ease ;
+            border: none;
+        }
+        .btnn:hover{
+            background: magenta;
+            color: black;
+        }
+        .form .link{
+            font-size: 20px;
+            font-family: sans-serif;
+            padding-top: 20px;
+            color: black;
+            text-align: center;
+        }
+        .form .link a{
+            text-decoration: none;
+            color:blue;
+            transition: 0.2s ease ;
+        }
+        .form .link a:hover{
+            color: red;
+        }
+        p{
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 10px;
+            font-weight: bold;
+            color: darkblue;
+        }
+}
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+    .container {
+        height: 60vh;
+        width: auto;
+        margin-top: -80px;
+    }
 
-.container{
-    height: 70vh;
-    width: 100%;
-    margin-top: -80px;
+    .form {
+        width: 374px;
+        height: auto;
+        background-image: linear-gradient(to right, #f1b1b1, #82e6e8);
+        position: absolute;
+        border-radius: 30px;
+        padding: 25px;
+        left: auto;
+    }
+
+    .form h2 {
+        width: 322px;
+        font-family: sans-serif;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #f1b1b1, #82e6e8;
+        color: black;
+        margin: 3px;
+        padding: 8px;
+    }
+
+    .a1 {
+        width: 325px;
+        height: 40px;
+        background: transparent;
+        border-bottom: black 2px solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: black;
+        font-size: 18px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+
+    .form input {
+        background: transparent;
+        margin-top: auto;
+        padding-left: 10px;
+    }
+
+    .btnn {
+        width: 300px;
+        height: 40px;
+        margin-left: 9px;
+        border-radius: 10px;
+        background: gold;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: 0.4s ease;
+        border: none;
+    }
+
+    .btnn:hover {
+        background: magenta;
+        color: black;
+    }
+
+    .form .link {
+        font-size: 20px;
+        font-family: sans-serif;
+        padding-top: 20px;
+        color: black;
+        text-align: center;
+    }
+
+    .form .link a {
+        text-decoration: none;
+        color: blue;
+        transition: 0.2s ease;
+    }
+
+    .form .link a:hover {
+        color: red;
+    }
 }
-.form{
-    width: 420px;
-    height: 460px;
-    background-image: linear-gradient(to right, #f1b1b1 , #82e6e8);
-    
-    position: absolute;
-    border-radius: 10px;
-    padding: 25px;
-    left: 580px;
-    
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+    .container {
+        height: 60vh;
+        width: auto;
+        margin-top: -80px;
+    }
+
+    .form {
+        width: 374px;
+        height: auto;
+        background-image: linear-gradient(to right, #f1b1b1, #82e6e8);
+        position: absolute;
+        border-radius: 30px;
+        padding: 25px;
+        left: auto;
+    }
+
+    .form h2 {
+        width: 322px;
+        font-family: sans-serif;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #f1b1b1, #82e6e8;
+        color: black;
+        margin: 3px;
+        padding: 8px;
+    }
+
+    .a1 {
+        width: 325px;
+        height: 40px;
+        background: transparent;
+        border-bottom: black 2px solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: black;
+        font-size: 18px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+
+    .form input {
+        background: transparent;
+        margin-top: auto;
+        padding-left: 10px;
+    }
+
+    .btnn {
+        width: 300px;
+        height: 40px;
+        margin-left: 9px;
+        border-radius: 10px;
+        background: gold;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: 0.4s ease;
+        border: none;
+    }
+
+    .btnn:hover {
+        background: magenta;
+        color: black;
+    }
+
+    .form .link {
+        font-size: 20px;
+        font-family: sans-serif;
+        padding-top: 20px;
+        color: black;
+        text-align: center;
+    }
+
+    .form .link a {
+        text-decoration: none;
+        color: blue;
+        transition: 0.2s ease;
+    }
+
+    .form .link a:hover {
+        color: red;
+    }
+
 }
-.form h2{
-    width: 360px;
-    font-family: sans-serif;
-    font-size: 38px;
-    font-weight: bold;
-    text-align: center;
-    background-color:#f1b1b1 , #82e6e8;
-    color: black;
-    margin: 3px;
-    padding: 8px;
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+        height: 60vh;
+        width: auto;
+        margin-top: -80px;
+    }
+
+    .form {
+        width: 374px;
+        height: auto;
+        background-image: linear-gradient(to right, #f1b1b1, #82e6e8);
+        position: absolute;
+        border-radius: 30px;
+        padding: 25px;
+        left: auto;
+    }
+
+    .form h2 {
+        width: 322px;
+        font-family: sans-serif;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #f1b1b1, #82e6e8;
+        color: black;
+        margin: 3px;
+        padding: 8px;
+    }
+
+    .a1 {
+        width: 325px;
+        height: 40px;
+        background: transparent;
+        border-bottom: black 2px solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: black;
+        font-size: 18px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+
+    .form input {
+        background: transparent;
+        margin-top: auto;
+        padding-left: 10px;
+    }
+
+    .btnn {
+        width: 300px;
+        height: 40px;
+        margin-left: 9px;
+        border-radius: 10px;
+        background: gold;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: 0.4s ease;
+        border: none;
+    }
+
+    .btnn:hover {
+        background: magenta;
+        color: black;
+    }
+
+    .form .link {
+        font-size: 20px;
+        font-family: sans-serif;
+        padding-top: 20px;
+        color: black;
+        text-align: center;
+    }
+
+    .form .link a {
+        text-decoration: none;
+        color: blue;
+        transition: 0.2s ease;
+    }
+
+    .form .link a:hover {
+        color: red;
+    }
+
 }
-.a1{
-    width: 360px;
-    height: 40px;
-    background: transparent;
-    border-bottom:black  2px solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    color: black;
-    font-size: 18px;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    padding-left: 10px;
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+        height: 60vh;
+        width: auto;
+        margin-top: -80px;
+    }
+
+    .form {
+        width: 374px;
+        height: auto;
+        background-image: linear-gradient(to right, #f1b1b1, #82e6e8);
+        position: absolute;
+        border-radius: 30px;
+        padding: 25px;
+        left: auto;
+    }
+
+    .form h2 {
+        width: 322px;
+        font-family: sans-serif;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #f1b1b1, #82e6e8;
+        color: black;
+        margin: 3px;
+        padding: 8px;
+    }
+
+    .a1 {
+        width: 325px;
+        height: 40px;
+        background: transparent;
+        border-bottom: black 2px solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: black;
+        font-size: 18px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+
+    .form input {
+        background: transparent;
+        margin-top: auto;
+        padding-left: 10px;
+    }
+
+    .btnn {
+        width: 300px;
+        height: 40px;
+        margin-left: 9px;
+        border-radius: 10px;
+        background: gold;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: 0.4s ease;
+        border: none;
+    }
+
+    .btnn:hover {
+        background: magenta;
+        color: black;
+    }
+
+    .form .link {
+        font-size: 20px;
+        font-family: sans-serif;
+        padding-top: 20px;
+        color: black;
+        text-align: center;
+    }
+
+    .form .link a {
+        text-decoration: none;
+        color: blue;
+        transition: 0.2s ease;
+    }
+
+    .form .link a:hover {
+        color: red;
+    }
+
 }
-.form input{
-    background: transparent;
-    margin-top: 20px;
-    padding-left: 10px; 
-}
-.btnn{
-    width: 300px;
-    height: 40px;
-    margin-left: 35px;
-    border-radius: 10px;
-    background:gold;
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: 0.4s ease ;
-    border: none;
-}
-.btnn:hover{
-    background: magenta;
-    color: black;
-}
-.form .link{
-    font-size: 20px;
-    font-family: sans-serif;
-    padding-top: 20px;
-    color: black;
-    text-align: center;
-}
-.form .link a{
-    text-decoration: none;
-    color:blue;
-    transition: 0.2s ease ;
-}
-.form .link a:hover{
-    color: red;
-}
-p{
-    text-align: center;
-    font-family: sans-serif;
-    margin-top: 10px;
-    font-weight: bold;
-    color: darkblue;
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+    .container {
+        height: 60vh;
+        width: auto;
+        margin-top: -80px;
+    }
+
+    .form {
+        width: 374px;
+        height: auto;
+        background-image: linear-gradient(to right, #f1b1b1, #82e6e8);
+        position: absolute;
+        border-radius: 30px;
+        padding: 25px;
+        left: auto;
+    }
+
+    .form h2 {
+        width: 322px;
+        font-family: sans-serif;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #f1b1b1, #82e6e8;
+        color: black;
+        margin: 3px;
+        padding: 8px;
+    }
+
+    .a1 {
+        width: 325px;
+        height: 40px;
+        background: transparent;
+        border-bottom: black 2px solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: black;
+        font-size: 18px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+
+    .form input {
+        background: transparent;
+        margin-top: auto;
+        padding-left: 10px;
+    }
+
+    .btnn {
+        width: 300px;
+        height: 40px;
+        margin-left: 9px;
+        border-radius: 10px;
+        background: gold;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: 0.4s ease;
+        border: none;
+    }
+
+    .btnn:hover {
+        background: magenta;
+        color: black;
+    }
+
+    .form .link {
+        font-size: 20px;
+        font-family: sans-serif;
+        padding-top: 20px;
+        color: black;
+        text-align: center;
+    }
+
+    .form .link a {
+        text-decoration: none;
+        color: blue;
+        transition: 0.2s ease;
+    }
+
+    .form .link a:hover {
+        color: red;
+    }
 }

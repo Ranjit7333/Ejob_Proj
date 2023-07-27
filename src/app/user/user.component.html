@@ -1,13 +1,23 @@
 <div class="container">
- <div class="form">
-  <h2>Login Here</h2>
-  <!-- model value:{{userInfo | json}}
-  <br/> -->
-  <input type="email" name="email" class="a1" placeholder="Type Your Email"  [(ngModel)]="userInfo.email"required>
-  <input type="password" name="pass1" class="a1"  placeholder="Type Your Password"[(ngModel)]="userInfo.pass1" required #y><br>
-  <input type="checkbox" (click)="y.type=y.type=='password'?'taxt':'password'"><label style="color: black;">&nbsp;  Show Password</label> <br>
-  <button type="button" (click)="onSubmit()" class="btnn">Login</button>
-  <p class="link">Don't have an Account <br>
-    <a [routerLink]="['/signUp']">Sign up </a> here </p>
+  <div class="row">
+    <div class="col-xs-4"></div>
+    <div class="col-xs-4">
+      <div class="form">
+        <h2>Login Here</h2>
+        <!-- model value:{{userInfo | json}}
+        <br/> -->
+        <input type="email" name="email" class="a1" placeholder="Type Your Email" [(ngModel)]="userInfo.email" required>
+        <input type="password" name="pass1" class="a1" placeholder="Type Your Password" [(ngModel)]="userInfo.pass1" required
+          #y><br>
+        <input type="checkbox" (click)="y.type=y.type=='password'?'taxt':'password'"><label style="color: black;">&nbsp; Show
+          Password</label> <br>
+        <button type="button" (click)="onSubmit()" class="btnn">Login</button>
+        <p class="link">Don't have an Account <br>
+          <a [routerLink]="['/signUp']">Sign up </a> here
+        </p>
+      </div>
+    </div>
+    <div class="col-xs-4"></div>
   </div>
+ 
 </div>

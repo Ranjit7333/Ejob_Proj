@@ -22,10 +22,8 @@ export class SignUpComponent implements OnInit {
         this.SignsService.signUp(data)
         .subscribe((res:any)=>{
           console.log(res);
-          if(res.message == 'success')
-          alert('You have a successfully registered with us !')
-          else
-          alert(res.message);
+          if(res.message == 'success'){alert('You have a successfully registered with us !')}
+          else{alert(res.message);} 
         });          
   }
 
