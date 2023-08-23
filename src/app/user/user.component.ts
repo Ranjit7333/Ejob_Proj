@@ -28,8 +28,8 @@ export class UserComponent implements OnInit {
      .subscribe((res:any)=>{
       // console.log(res);
        if(res.message == 'success'){
-         localStorage.setItem('token',res.token)
-         localStorage.setItem('User',res.loggedUser)
+         sessionStorage.setItem('token',res.token)
+         sessionStorage.setItem('User',res.loggedUser)
          alert('wellcome  ' + res.loggedUser)
          this.route.navigateByUrl('/foods')
        }else{alert(res.message)} 

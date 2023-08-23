@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class sign {\n  constructor(name, email, pass1) {\n    this.name = name;\n    this.email = email;\n    this.pass1 = pass1;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

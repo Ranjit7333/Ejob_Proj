@@ -14,7 +14,7 @@ export class FoodsComponent implements OnInit {
     private rout:Router) { }
 
   ngOnInit(): void {
-    this.loggedUser= localStorage.getItem('User')
+    this.loggedUser= sessionStorage.getItem('User')
     this.foodService.getAllFoods()
     .subscribe((res:any)=>{
      // console.log(res);
@@ -24,7 +24,7 @@ export class FoodsComponent implements OnInit {
    
   }
   onLogout(){
-    localStorage.clear()
+    sessionStorage.clear()
     alert('You Have Successfully Logged Out !')
     this.rout.navigateByUrl('/user')
   }

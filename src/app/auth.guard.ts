@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class AuthGuard implements CanActivate {
   constructor(private route:Router){}
   canActivate():boolean {
-   const token = localStorage.getItem('token');
+   const token = sessionStorage.getItem('token');
    if(!token){
      alert('Please login to view this page')
      this.route.navigateByUrl('/user');
